@@ -59,11 +59,7 @@ export const menuItems = [
     icon: <AlarmOnIcon style={iconStyle}/>
 },
 
-{
-    title: 'Holidays',
-    href: '/apps/calendar',
-    icon: <DateRangeIcon style={iconStyle}/>
-},
+
 {
     title: 'Chat',
     href: '/apps/chat',
@@ -76,6 +72,31 @@ export const menuItems = [
     href: '/apps/notes',
     icon: <NotificationsNoneIcon style={iconStyle}/>
 },
+{
+    title: 'Holidays',
+    href: '/apps/calendar',
+    icon: <DateRangeIcon style={iconStyle}/>
+},
+
+{
+    title: 'Leaves',
+    href: '/apps/calendar',
+    icon: <DateRangeIcon style={iconStyle}/>
+},
+
+{
+    title: 'Role Permision',
+    href: '/apps/calendar',
+    icon: <DateRangeIcon style={iconStyle}/>
+},
+
+{
+    title: 'Users',
+    href: '/apps/calendar',
+    icon: <DateRangeIcon style={iconStyle}/>
+},
+
+
 
 {
     title: 'Settings',

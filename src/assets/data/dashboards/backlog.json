@@ -1,18 +1,18 @@
 [{
   "id": 1,
-  "name": "Styling the navigation",
+  "name": "Toy Ecommerce",
   "time": "11h",
   "status": "Pending",
   "priority": "High"
 }, {
   "id": 2,
-  "name": "Bomber Jacket",
+  "name": "Health Anroid app",
   "time": "3h",
-  "status": "Pending",
-  "priority": "Low"
+  "status": "Complete",
+  "priority": "High"
 }, {
   "id": 3,
-  "name": "Luxury Black Shirt",
+  "name": "CRM",
   "time": "1d",
   "status": "Pending",
   "priority": "Low"

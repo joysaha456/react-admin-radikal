@@ -23,6 +23,16 @@ const Project = (props) => {
 
 
         <Grid container justify="center" spacing={16}>
+
+        <Grid key={6} item xs={12} sm={12} md={4} className={classes.portalWidget}>
+            <Typography variant="subheading" className={classes.portalWidgetHeading}>
+              Today Attendness
+            </Typography>
+            <Paper className={classes.portalWidgetContent}>
+              <UserTasksWidget />
+            </Paper>
+          </Grid>
+          
           <Grid item xs={12} sm={12} md={8}>
             <Grid container justify="center" spacing={16}>
               <Grid key={4} item xs={12} className={classes.portalWidget}>
@@ -45,14 +55,7 @@ const Project = (props) => {
             </Grid>
           </Grid>
 
-          <Grid key={6} item xs={12} sm={12} md={4} className={classes.portalWidget}>
-            <Typography variant="subheading" className={classes.portalWidgetHeading}>
-              Today Attendness
-            </Typography>
-            <Paper className={classes.portalWidgetContent}>
-              <UserTasksWidget />
-            </Paper>
-          </Grid>
+
 
         </Grid>
       </Grid>
