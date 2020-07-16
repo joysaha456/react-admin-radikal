@@ -23,8 +23,10 @@ import DateRangeIcon from '@material-ui/icons/DateRange';
 import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
 import AlarmOnIcon from '@material-ui/icons/AlarmOn';
 import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
-
+import DeviceHubIcon from '@material-ui/icons/DeviceHub';
+import PollIcon from '@material-ui/icons/Poll';
 import GroupIcon from '@material-ui/icons/Group';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import themes from './themes';
 
 export const configuredTheme = themes[0].theme;
@@ -80,20 +82,20 @@ export const menuItems = [
 
 {
     title: 'Leaves',
-    href: '/apps/calendar',
-    icon: <DateRangeIcon style={iconStyle}/>
+    href: '#',
+    icon: <PollIcon style={iconStyle}/>
 },
 
 {
     title: 'Role Permision',
-    href: '/apps/calendar',
-    icon: <DateRangeIcon style={iconStyle}/>
+    href: '#',
+    icon: <DeviceHubIcon style={iconStyle}/>
 },
 
 {
     title: 'Users',
-    href: '/apps/calendar',
-    icon: <DateRangeIcon style={iconStyle}/>
+    href: '#',
+    icon: <AccountCircleIcon style={iconStyle}/>
 },
 
 

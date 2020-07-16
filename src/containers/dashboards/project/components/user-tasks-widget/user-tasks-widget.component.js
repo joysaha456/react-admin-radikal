@@ -48,7 +48,7 @@ class UserTasksWidget extends React.Component {
                   <Avatar alt={user.name} src={`${process.env.PUBLIC_URL}/${user.photo}`} />
                   <ListItemText
                     primary={user.name + ' ' + user.surname}
-                    secondary={user.closed_tasks + ' closed issues, ' + user.new_tasks + ' new'}
+                    secondary={user.closed_tasks + ' am, ' + user.new_tasks + ' min'}
                     classes={{
                       primary: user === selectedUser ? classes['portal-users-list-item__text--active'] : '',
                       secondary: classNames(
