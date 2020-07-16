@@ -45,8 +45,8 @@ Radikal is a Responsive Material Admin Dashboard and written with React and SASS
 - Login, register pages
 - Calendar view
 - Employee
-- Clients
-- Users
+- Chat
+- Attendness
 - Settings
 
 Radikal is free and always will be.
@@ -136,7 +136,7 @@ To contribute, please see the (https://joysaha456.github.io/).
 
 For PWA,Radikal go to the (https://github.com/joysaha456/react-admin-radikal) repository.
 
-[View storefront demo](https://joysaha456.github.io/react-admin-radikal)
+[View  demo](https://joysaha456.github.io/react-admin-radikal)
 
 ## Dashboard
 
@@ -148,7 +148,7 @@ For dashboard go to the (https://joysaha456.github.io/react-admin-radikal) repos
 
 Want to see Radikal in action?
 
-[View Storefront](https://github.com/joysaha456/react-admin-radikal)
+[View ](https://joysaha456.github.io/react-admin-radikal)
 
 ## Contributing
 
