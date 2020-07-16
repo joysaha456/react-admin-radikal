@@ -49,8 +49,7 @@ Radikal is a Responsive Material Admin Dashboard and written with React and SASS
 - Attendness
 - Settings
 
-Radikal is free and always will be.
-Help us out… If you love free stuff and great software, give us a star! 🌟
+
 
 ![](screenshots/screenshot2.png)
 
