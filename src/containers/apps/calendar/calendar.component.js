@@ -82,7 +82,7 @@ class Calendar extends React.Component {
     const events = [];
     const eventNames = [
       'Govt Holidays ', 'Durga Puja', 'Naitional Holidays',  'EID Festival',
-      'Festival', 'Festival', 'Festival ', 'Festival', 'Haircut appointmentFestival'];
+      'Festival', 'Festival', 'Festival ', 'Festival', ' Purnima Festival'];
     const locationNames = ['London', 'New York', 'Paris', 'Athens'];
     for (let x = 0; x < number; x += 1) {
       const randomMonthDate = this.randomDate(startDate, endDate);
