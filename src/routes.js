@@ -54,6 +54,7 @@ const AsyncError404 = asyncComponent(() => import('./containers/errors/404.compo
 const AsyncError500 = asyncComponent(() => import('./containers/errors/500.component'));
 
 const AsyncNotFound = asyncComponent(() => import('./containers/not-found/not-found.component'));
+const AsyncLeave = asyncComponent(() => import('./containers/leave/leave.component'));
 
 // PAGES ROUTES
 const AsyncTypography = asyncComponent(() => import('./containers/pages/typography.component'));
@@ -139,24 +140,30 @@ export default ({ childProps, layout }) => {
       <AppRoute path="/elements/picker" exact component={AsyncPickerExample} props={childProps} layout={activeLayout} />
       <AppRoute path="/elements/selects" exact component={AsyncSelectExample} props={childProps} layout={activeLayout} />
       <AppRoute path="/elements/text-fields" exact component={AsyncTextFieldExample} props={childProps} layout={activeLayout} />
-      <AppRoute path="/elements/app-bar" exact component={AsyncAppBarExample} props={childProps} layout={activeLayout} />
-      <AppRoute path="/elements/menu" exact component={AsyncMenuExample} props={childProps} layout={activeLayout} />
+      <AppRoute path="/listusers" exact component={AsyncAppBarExample} props={childProps} layout={activeLayout} />
+      
       <AppRoute path="/elements/list" exact component={AsyncListExample} props={childProps} layout={activeLayout} />
-      <AppRoute path="/elements/cards" exact component={AsyncCardExample} props={childProps} layout={activeLayout} />
+      <AppRoute path="/role" exact component={AsyncCardExample} props={childProps} layout={activeLayout} />
       <AppRoute path="/elements/paper" exact component={AsyncPaperExample} props={childProps} layout={activeLayout} />
       <AppRoute path="/elements/avatars" exact component={AsyncAvatarExample} props={childProps} layout={activeLayout} />
       <AppRoute path="/elements/steppers" exact component={AsyncSteppersExample} props={childProps} layout={activeLayout} />
       <AppRoute path="/elements/buttons" exact component={AsyncButtonExample} props={childProps} layout={activeLayout} />
-      <AppRoute path="/elements/progress" exact component={AsyncProgressExample} props={childProps} layout={activeLayout} />
+      <AppRoute path="/addusers" exact component={AsyncProgressExample} props={childProps} layout={activeLayout} />
       <AppRoute path="/login" exact component={AsyncLogin} props={childProps} layout={NoLayout} />
       <AppRoute path="/register" exact component={AsyncRegister} props={childProps} layout={NoLayout} />
       <AppRoute path="/profile" exact component={AsyncProfile} props={childProps} layout={activeLayout} />
-      <AppRoute path="/lock" exact component={AsyncLock} props={childProps} layout={NoLayout} />
+      <AppRoute path="/leave" exact component={AsyncLock} props={childProps} layout={activeLayout} />
       <AppRoute path="/forgot-password" exact component={AsyncForgot} props={childProps} layout={NoLayout} />
       <AppRoute path="/errors/404" exact component={AsyncError404} props={childProps} layout={NoLayout} />
       <AppRoute path="/errors/500" exact component={AsyncError500} props={childProps} layout={NoLayout} />
       <AppRoute path="/pages/typography" exact component={AsyncTypography} props={childProps} layout={activeLayout} />
-      <AppRoute path="/pages/colors" exact component={AsyncColors} props={childProps} layout={activeLayout} />
+      <AppRoute path="/addrole" exact component={AsyncColors} props={childProps} layout={activeLayout} />
       <AppRoute component={AsyncNotFound} layout={activeLayout} />
+
+      <AppRoute path="/elements/menu" exact component={AsyncMenuExample} props={childProps} layout={activeLayout} />
+
+
+      {/* <AppRoute path="/leave" exact component={AsyncLeave} props={childProps} layout={activeLayout} /> */}
+      {/* <AppRoute component={AsyncLeave} layout={activeLayout} /> */}
     </Switch>);
 };

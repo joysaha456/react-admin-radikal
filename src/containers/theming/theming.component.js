@@ -2,13 +2,16 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import compose from 'recompose/compose';
-
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import Paper from '@material-ui/core/Paper';
 import Switch from '@material-ui/core/Switch';
 import Divider from '@material-ui/core/Divider';
+import TextField from '@material-ui/core/TextField';
+import Card from '@material-ui/core/Card';
 
 import {
   changeSidenavToolbarBackground,
@@ -60,12 +63,49 @@ const Theming = (props) => {
             <Typography variant="headline" gutterBottom>Settings</Typography>
 
             <Typography component="p" gutterBottom>
-              Admin panel sattings 
+              Admin panel settings 
             </Typography>
 
    
 
             <br />
+
+
+            <Card className={scss.card}>
+              <CardContent>
+                <Grid container>
+                  <Grid item sm={6} xs={12}>
+                    <TextField
+                      label="Site Name"
+                      fullWidth
+                    />
+                  </Grid>
+                  <Grid item sm={6} xs={12}>
+                    <TextField
+                      label="Tag"
+                      fullWidth
+                    />
+                  </Grid>
+                  <Grid item xs={12}>
+                    <TextField
+                      label="Email Address"
+                      fullWidth
+                    />
+                  </Grid>
+                  <Grid item xs={12}>
+                    <TextField
+                      label="Addess"
+                      fullWidth
+                      
+                    />
+                  </Grid>
+         
+                </Grid>
+              </CardContent>
+ 
+            </Card>
+          
+       <br></br>
 
             <Grid
               container

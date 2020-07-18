@@ -44,20 +44,7 @@ const Register = (props) => {
             sm={6}
             xs={12}
           >
-            <Card className={classNames(scss.card, classes['primary-card'])}>
-              <CardContent className={scss['signup-content']}>
-                <img src={logoImage} className={scss['signup-logo']} alt="logo" />
-                <Typography variant="headline" component="h2" gutterBottom>
-                  Register
-                </Typography>
-                <Typography component="p" gutterBottom>
-                  Welcome It takes a couple of minutes to sign up for a free account. Just fill in your details to gain access the admin panel and view the dashboard. By creating an account, you agree to our Terms & Conditions and Privacy Policy.
-                </Typography>
-              </CardContent>
-              <CardActions>
-                <Button fullWidth href="/react-admin-radikal/login" color="secondary" variant="raised">I'm already registered</Button>
-              </CardActions>
-            </Card>
+
           </Grid>
           <Grid
             item

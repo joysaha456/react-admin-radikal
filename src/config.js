@@ -82,22 +82,36 @@ export const menuItems = [
 
 {
     title: 'Leaves',
-    href: '#',
+    href: '/leave',
     icon: <PollIcon style={iconStyle}/>
 },
 
+
+
 {
     title: 'Role Permision',
-    href: '#',
-    icon: <DeviceHubIcon style={iconStyle}/>
+    icon: <DeviceHubIcon style={iconStyle}/>,
+    children: [{
+        title: 'Roles',
+        href: '/role'
+    }, {
+        title: 'Add Role',
+        href: '/addrole'
+    }]
 },
+
 
 {
     title: 'Users',
-    href: '#',
-    icon: <AccountCircleIcon style={iconStyle}/>
+    icon: <AccountCircleIcon style={iconStyle}/>,
+    children: [{
+        title: 'User list',
+        href: '/listusers'
+    }, {
+        title: 'Add User',
+        href: '/addusers'
+    }]
 },
-
 
 
 {
