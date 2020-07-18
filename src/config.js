@@ -106,7 +106,7 @@ export const menuItems = [
     icon: <AccountCircleIcon style={iconStyle}/>,
     children: [{
         title: 'User list',
-        href: '/listusers'
+        href: '/apps/contacts'
     }, {
         title: 'Add User',
         href: '/addusers'
