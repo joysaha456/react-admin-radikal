@@ -19,7 +19,7 @@
     "jss": "^9.8.1",
     "jss-rtl": "^0.2.3",
     "lint-staged": "^6.0.0",
-    "marked": "^0.3.12",
+    "marked": "^4.0.10",
     "moment": "^2.20.1",
     "node-sass": "^4.14.1",
     "prettier": "^1.10.2",
